@@ -2,7 +2,7 @@
 
 This project is a backend application that provides APIs for managing YouTube Subscibers.
 
-We have to create a backend api which will send the response in form of JSON, by using modular coding approach which contains having different files for the api connection, the database should be handled by another file.
+We have created a backend api which will send the response in form of JSON, by using modular coding approach which contains having different files for the api connection, the database should be handled by another file.
 
 The APIs provided by this application include the following:
 
