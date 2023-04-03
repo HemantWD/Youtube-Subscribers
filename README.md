@@ -26,7 +26,7 @@ MongoDB https://www.mongodb.com/try/download/shell
 1. Clone this repository:
 
 ```bash
- git clone https://github.com/SakshamAgrawall/Get_Youtube_subscribers.git
+ git clone https://github.com/HemantWD/Youtube-Subscribers.git
 ```
 
 2. Install dependencies:
