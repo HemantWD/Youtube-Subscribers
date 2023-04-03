@@ -1,7 +1,7 @@
 const express = require('express');
 const path = require('path');
 const Subscribers = require('./models/subscribers');
-const app = express()
+const app = express();
 
 // routes
 // api to render HTML File || METHOD GET

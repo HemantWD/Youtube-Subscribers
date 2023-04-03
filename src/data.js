@@ -11,6 +11,6 @@ const data = [
       "name": "Lucifer",
       "subscribedChannel": "Sentex"
     }
-  ]
+]
 
 module.exports = data;

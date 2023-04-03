@@ -14,6 +14,6 @@ const susbcriberSchema = new mongoose.Schema({
         required: true,
         default: Date.now
     }
-})
+});
 
 module.exports = mongoose.model('Subscriber',susbcriberSchema);

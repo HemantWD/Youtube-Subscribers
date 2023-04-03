@@ -18,4 +18,4 @@ const refreshAll = async () => {
     await subscriberModel.insertMany(data)
     await mongoose.disconnect();
 }
-refreshAll()
+refreshAll();
