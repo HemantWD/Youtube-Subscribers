@@ -11,7 +11,10 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
 // Connect to DATABASE
-const DATABASE_URL = process.env.DATABASE_URI;
+
+const DATABASE_URL =
+  process.env.DATABASE_URI ||
+  "mongodb+srv://Hemant:livelong123@cluster0.w8dp0gl.mongodb.net/subscribers";
 mongoose.connect(DATABASE_URL, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
