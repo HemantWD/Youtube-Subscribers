@@ -7,7 +7,8 @@ const dotenv = require("dotenv");
 dotenv.config();
 // Connect to DATABASE
 const DATABASE_URL =
-  process.env.DATABASE_URI || "mongodb://127.0.0.1:27017/subscribers";
+  process.env.DATABASE_URI ||
+  "mongodb+srv://Hemant:livelong123@cluster0.w8dp0gl.mongodb.net/subscribers";
 mongoose.connect(DATABASE_URL, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
